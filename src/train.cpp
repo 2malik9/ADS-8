@@ -9,10 +9,11 @@ Cage *next;
 };
 
 class Train {
- private:
+  private:
 Cage *first;
 int countOp;
- public:
+   public:
+
 Train() : first(nullptr), countOp(0) {}
 
 void addCage(bool light) {
